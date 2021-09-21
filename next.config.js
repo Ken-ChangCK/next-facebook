@@ -1,5 +1,5 @@
 module.exports = {
-	distDir: "build",
+	// distDir: "build",
   images: {
     // loader: "imgix",
     // path: "/",
