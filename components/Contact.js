@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 
 const Contact = ({src, name}) => {
-  // Contact
   return (
     <div className="flex items-center space-x-3 mb-2 relative hover:bg-gray-200 cursor-pointer p-2 rounded-xl">
       <Image 
