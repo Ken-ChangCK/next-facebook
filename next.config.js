@@ -1,3 +1,11 @@
 module.exports = {
-  reactStrictMode: true,
-}
+	distDir: "build",
+  images: {
+    domains: [
+      "links.papareact.com",
+      "platform-lookaside.fbsbx.com",
+      "firebasestorage.googleapis.com",
+      "images.unsplash.com"
+    ],
+  },
+};
