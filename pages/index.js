@@ -14,7 +14,7 @@ export default function Home({session, posts}) {
   return (  
     <div className='h-screen overflow-hidden bg-gray-100'>
       <Head>
-        <title>Facebook</title>
+        <title>Facebook1</title>
       </Head>
 
       <Header/>
