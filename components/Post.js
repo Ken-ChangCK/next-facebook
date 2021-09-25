@@ -31,7 +31,7 @@ const Post = ({ name, message, email, postImage, image, timestamp }) => {
       </div> 
       {postImage && (
         <div className="relative h-56 md:h-96 bg-white">
-          <Image src={postImage} objectFit="cover" layout="fill" alt='post-image'/>
+          <Image src={postImage} objectFit="contain" layout="fill" alt='post-image'/>
         </div>
       )}
     {/* footer */}
